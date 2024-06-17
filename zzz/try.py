@@ -58,16 +58,17 @@
 #   print()  # Print a newline after each row
 
 
-number_of_rows = 5  #სიმაღლე
+# number_of_rows = 5  #სიმაღლე
+#
+# # ზრდადი ფიფქები
+# for current_row in range(1, number_of_rows + 1): #1დან 5ის ჩათვლით
+#   for number_of_stars in range(1, current_row + 1): #რეინჯი იცვლება იტერაციაში და ჯერ ერთხელ ბეჭდავს ფიფქს, და შიდა end მერე გარე end, მერე ორჯერ ბეჭდავს ფიფქს გარე endამდე
+#     print("*", end="")  # ანუ შიდა loopში ახალი ხაზის გარეშე ბეჭდავს ფიფქებს
+#   print()  # ახალი ხაზი, როცა გარე for ეშვება
+#
+# # კლებადი ფიფქები
+# for current_row in range(number_of_rows - 1, 0, -1): #უკუსვლა, ჯერ 4ჯერ სრულდება, მერე 3ჯერ და ა.შ
+#   for number_of_stars in range(1, current_row + 1):
+#     print("*", end="")  # ახალი ხაზის გარეშე
+#   print()  # ახალი ხაზით
 
-# ზრდადი ფიფქები
-for current_row in range(1, number_of_rows + 1): #1დან 5ის ჩათვლით
-  for number_of_stars in range(1, current_row + 1): #რეინჯი იცვლება იტერაციაში და ჯერ ერთხელ ბეჭდავს ფიფქს, და შიდა end მერე გარე end, მერე ორჯერ ბეჭდავს ფიფქს გარე endამდე
-    print("*", end="")  # ანუ შიდა loopში ახალი ხაზის გარეშე ბეჭდავს ფიფქებს
-  print()  # ახალი ხაზი, როცა გარე for ეშვება
-
-# კლებადი ფიფქები
-for current_row in range(number_of_rows - 1, 0, -1): #უკუსვლა, ჯერ 4ჯერ სრულდება, მერე 3ჯერ და ა.შ
-  for number_of_stars in range(1, current_row + 1):
-    print("*", end="")  # ახალი ხაზის გარეშე
-  print()  # ახალი ხაზით

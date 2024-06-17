@@ -204,7 +204,20 @@
 # სტრიქონი: ''w3schools''; უნდა დააბრუნოს ლექსიკონი:
 #
 # {'w': 1, '3': 1, ‘s': 2, ‘c': 1, ‘h': 1, 'o': 2, ‘l': 1}
-# def dict_of_count(string):
+
+# def char_count(text):
+#   char_dict = {}
+#   for char in text:
+#     if char in char_dict:
+#       char_dict[char] += 1
+#     else:
+#       char_dict[char] = 1
+#   return char_dict
+#
+#
+# text = "w3schools"
+# char_dict = char_count(text)
+# print(char_dict)
 
 #
 # არასავალდებულო
